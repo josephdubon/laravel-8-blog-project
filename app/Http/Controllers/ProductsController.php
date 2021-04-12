@@ -9,17 +9,9 @@ class ProductsController extends Controller
     // index
     public function index()
     {
-        $title = "Welcome to my homepage!";
-        $description = "Created by Joe";
+        print_r(route('products'));
 
-        $data = [
-            'product1' => 'iPhone',
-            'product2' => 'iPad',
-        ];
-
-        return view('products.index', [
-            'data' => $data
-        ]);
+        return view('products.index');
     }
 
     //product detail
