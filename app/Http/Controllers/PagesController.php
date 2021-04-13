@@ -15,7 +15,13 @@ class PagesController extends Controller
     // for about view
     public function about()
     {
-        return view('about');
+//        $name = 'Joe';
+        $name = [
+            'Joe',
+            'Jon',
+            'Jessi'
+        ];
+        return view('about')->with('name', $name);
     }
 
 
