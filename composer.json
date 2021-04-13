@@ -2,7 +2,10 @@
     "name": "laravel/laravel",
     "type": "project",
     "description": "A Blog Built With Laravel 8",
-    "keywords": ["framework", "laravel"],
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
