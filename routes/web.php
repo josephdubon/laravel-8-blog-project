@@ -22,3 +22,4 @@ Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
 
 // Posts endpoint
 Route::get('/posts', [PostsController::class, 'index'])->name('posts');
+Route::get('/posts/create', [PostsController::class, 'create'])->name('create');
