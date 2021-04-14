@@ -21,6 +21,12 @@
             </li>
             <li class="nav-item">
                 <a
+                    class="nav-link {{ request()->is('posts') ? 'active' : '' }}"
+                    href="{{ route('posts') }}"
+                >Posts</a>
+            </li>
+            <li class="nav-item">
+                <a
                     class="nav-link {{ request()->is('portfolio') ? 'active' : '' }}"
                     href="{{ route('portfolio') }}"
                 >Portfolio</a>
