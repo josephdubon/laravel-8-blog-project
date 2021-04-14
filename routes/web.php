@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PostsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,6 @@ Route::get('/', [PagesController::class, 'index'])->name('home');
 Route::get('/about', [PagesController::class, 'about'])->name('about');
 Route::get('/portfolio', [PagesController::class, 'portfolio'])->name('portfolio');
 Route::get('/contact', [PagesController::class, 'contact'])->name('contact');
+
+// Posts endpoint
+Route::get('/posts', [PostsController::class, 'index'])->name('posts');
