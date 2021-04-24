@@ -2,6 +2,6 @@
 
 A basic blog project built with Laravel 8
 
-## License
+## URL
 
-None / N/A
+https://josephdubon.github.io/laravel-8-blog-project/
